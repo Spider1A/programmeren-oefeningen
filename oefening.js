@@ -4,7 +4,7 @@ let resultaateven= 0;
 for(let vraag =0;vraag<10 ;vraag++){
 
     let i=parseFloat(await userInput.question("wat is jouw cijfer ? "));
-
+// ik maak en vraag zo kan de computer mij het vraag stellen
     if(i% 2 == 0){
          resultaateven += i;
         
